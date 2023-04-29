@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+}
+
+h1 {
+    color: #e07043;
+    font-size: 40px;
+}
+body {
+    background-color: #ECF0F1;
+    margin: 0;
+
+
+}
+section{
+    background-color: white;
+    display: flex;
+   width: 60%;
+   margin: auto;
+   border: 1px solid;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    align-self: center;
+    margin: auto;
+    border: 2px solid;
+
+
+}
+
+
+th,td {
+    border-bottom: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eb806e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #DFF6FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+
+    background-color: rgb(134, 67, 51);
+}
+
+
+/* selectores del formulario Clientes */
+
+form {
+    align-items: left;
+    border: 1px solid;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #aa2a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #530101;
+  }
+
+  #label{
+    margin: 0;
+    text-align: left;
+    margin-top: 25px;
+  }
+  #labelcontestar{
+    margin: 0 ;
+    margin-top: 25px;
+  }
+  #formulario{
+    display: flex;
+    justify-content: center;
+    
+  }
+  p{
+    text-align: left;
+    
+  }
+  #columnaparrafo1{
+   width: 30%;
+   font-weight: bold;
+  }
+  #columnaparrafo2{
+    width: 30%;
+  }
+
